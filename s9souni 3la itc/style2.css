@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #122E5E;
+    background-size: 100% 100%; }
+#M_logo {
+height: 5%;
+width: 15%;
+}
+.main p {
+    text-transform: capitalize;
+     color: lavender;
+     font-size: 50px;
+     font-weight: 400;
+     position: center;
+     margin-top: 5%;
+     margin-left: 25%;
+     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+
+}
+.bn1-hover {
+    width: 20%;
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 100% 100%;
+    border-radius: 50px;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+.bn1-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.bn1-hover:focus {
+    outline: none;
+}
+.bn1-hover.bn2 {
+    background-image: linear-gradient(
+        to right,
+        #eb3941,
+        #f15e64,
+        #e14e53,
+        #e2373f
+    );
+    box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+}
+input[type=text]{
+    width: 30%;
+    border: 2px solid #aaa;
+    border-radius: 50px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px ;
+    box-sizing: border-box;
+transition: 3s;
+font-size: 30px;
+font-weight: 800;
+cursor: pointer;
+margin-left: 35%;
+margin-top: 5%;
+height: 55px;
+text-align: center;
+border: none;
+background-size: 100% 100%;
+border-radius: 50px;
+}
+input[type=text]:focus {
+border-color: #e2373f;
+box-shadow: 0 0 8px dodgerblue;
+}

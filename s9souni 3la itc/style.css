@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #122E5E;
+    background-size: 100% 100%;
+font-size: large; }
+/*.nouveau_jeux button { 
+    left: 20%;
+    border-color: black;
+    border-radius: 5%;
+}*/
+#image{
+    width: 40%;
+    height: 50%;
+    margin-left: 50%;
+    margin-top: -25%;
+
+
+ }
+ #logo{
+     width: 15%;
+     height: auto;
+     margin-left: 20%;
+     margin-top: 5%;
+ }
+ 
+ .main p {
+     text-transform: capitalize;
+     color: lavender;
+     font-size: 50px;
+     font-weight: 200;
+     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+     margin-left: 20%;
+     
+     }
+ .bn632-hover {
+     width: 20%;
+     font-size: 20px;
+     font-weight: 600;
+     color: #fff;
+     cursor: pointer;
+     margin-left: 20%;
+     margin-top: -80%;
+     height: 55px;
+     text-align: center;
+     border: none;
+     background-size: 300% 100%;
+     border-radius: 50px;
+
+     -o-transition: all .4s ease-in-out;
+     -webkit-transition: all .4s ease-in-out;
+ }
+ .bn632-hover:hover {
+     background-position: 100% 0;
+     -o-transition: all .4s ease-in-out;
+     -webkit-transition: all .4s ease-in-out;
+     transition: all .4s ease-in-out;
+ }
+ .bn632-hover:focus {
+     outline: none;
+ }
+ .bn632-hover.bn28 {
+     background-image: linear-gradient(
+         to right,
+         #eb3941,
+         #f15e64,
+         #e14e53,
+         #e2373f
+     );
+     box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+ }

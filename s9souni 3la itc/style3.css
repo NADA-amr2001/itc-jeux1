@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #122E5E;
+    background-size: 100% 100%; }
+    .main {
+        position: center;
+        text-transform: capitalize;
+        color: lavender;
+        font-size: 50px;
+        font-weight: 200;
+        margin-left: 20%;
+        margin-top: -20%;
+        font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    }
+    .main p {
+        font-size: 35px;
+        font-style: oblique;
+    }
+    #M_logo {
+        height: 5%;
+        width: 15%;
+        }
+.main h3 {
+color: indianred;
+margin-left: 35%;
+    }
+
+   
+    #qst {
+        margin-left: 20%;
+    }
+    .btn_grp .button {
+        background-color: aliceblue;
+        border:none ;
+        padding: 22px  ;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 50px;
+        width: 40%;
+        height: 50%;
+        font-weight: 900;
+        color: red;
+        
+      
+    }
+    .btn_grp .button:hover {
+background-color: red;
+color: aliceblue;
+    }
+    .bn3-hover {
+        width: 20%;
+        font-size: 30px;
+        font-weight: 800;
+        color: #fff;
+        cursor: pointer;
+        margin-left: 30%;
+        margin-top: 5%;
+        height: 55px;
+        text-align: center;
+        border: none;
+        background-size: 100% 100%;
+        border-radius: 50px;
+        background-color:indianred ;
+    
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+    }
+    .bn3-hover:hover {
+        background-color: firebrick;
+    }
+    .start {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+    }
+    .btn-one {
+        background-color: aliceblue;
+        border: none;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        border: 2px;
+        border-radius: 50px;
+        width: 40%;
+        color: brown;
+        font-weight: 900;
+        text-align: center;
+    }
+   .btn-one:hover{
+       background-color: brown;
+       color: aliceblue;
+   }
+   .footer {
+       position: fixed;
+       left:0;
+       bottom:0;
+       width: 100%;
+       background-color: rgb(13, 13, 82);
+       text-align: center;
+       }
+       #ftr {
+       }
+       .footer p {
+        text-transform: capitalize;
+        color: lavender;
+        font-size: 20px;
+        font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+       }
+       .footer h3 {
+           color: darksalmon;
+           margin-right: -70%;
+           margin-top: -5%;
+       }
